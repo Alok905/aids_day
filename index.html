@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIDS Awareness</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-cover bg-center backdrop-blur-sm">
+    <main class="overflow-scroll w-full h-full">
+      <!-- Navbar -->
+      <nav class="text-white py-4 shadow-md top-0 w-full z-10">
+        <div class="container mx-auto flex justify-between items-center px-4">
+          <a href="#" class="text-xl font-bold">AIDS Awareness</a>
+          <ul class="flex space-x-6 hidden sm:flex">
+            <li>
+              <a href="#video-gallery" class="hover:text-gray-300"
+                >Video Gallery</a
+              >
+            </li>
+            <li>
+              <a href="#external-links" class="hover:text-gray-300"
+                >External Links</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <div>
+        <!-- Section 1: Video Gallery -->
+        <section id="video-gallery" class="py-10 text-white">
+          <h2 class="text-3xl font-semibold text-center mb-8">
+            Video Gallery
+          </h2>
+          <div
+            id="video-container"
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4"
+          >
+            <!-- Videos will be populated here by JavaScript -->
+          </div>
+        </section>
+
+        <!-- Section 2: External Links -->
+        <section id="external-links" class="py-10 text-white">
+          <h2 class="text-3xl font-semibold text-center mb-8">
+            Useful External Links
+          </h2>
+          <div class="flex flex-col justify-center space-y-8 p-2">
+            <a
+              href="https://www.imdb.com/list/ls066532812/"
+              target="_blank"
+              class="text-white hover:text-green-100"
+              >Documentaries</a
+            >
+            <a
+              href="https://clinicalinfo.hiv.gov/en/guidelines"
+              target="_blank"
+              class="text-white hover:text-green-100"
+              >HIV Govt Guidelines</a
+            >
+            <a
+              href="https://www.naco.gov.in/register-aadhaar-card"
+              target="_blank"
+              class="text-white hover:text-green-100"
+              >NACO</a
+            >
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
