@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Video URLs related to AIDS awareness (replace with appropriate URLs)
     const videos = [
-        "images/v1",
-        "images/v2",
-        "images/v3",
+        "https://drive.google.com/file/d/1x8z4ZZiN60JtIWN5yRyhlcZr46gnEHHi/view?usp=sharing",
+        "https://drive.google.com/file/d/13o-EfMW9aCZ-_kiVHHWZw_a75aPQGvSX/view?usp=sharing",
+        "https://drive.google.com/file/d/1AGTKjnS7bppYkFCT0AnSjp8Uv45lS3vm/view?usp=sharing",
     ];
 
     const videoContainer = document.getElementById('video-container');
